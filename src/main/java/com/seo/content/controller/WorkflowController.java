@@ -1,5 +1,6 @@
 package com.seo.content.controller;
 
+import com.seo.content.dto.KeywordExplorationResponse;
 import com.seo.content.model.Article;
 import com.seo.content.model.ExplorationLog;
 import com.seo.content.model.KeywordStatus;
@@ -58,27 +59,27 @@ public class WorkflowController {
      * Manually explore keywords without generating articles
      */
     @PostMapping("/explore-keywords/{nicheId}")
-    public ResponseEntity<Map<String, Object>> exploreKeywords(
+    public ResponseEntity<KeywordExplorationResponse> exploreKeywords(
             @PathVariable Long nicheId,
             @RequestBody ExploreKeywordsRequest request) {
         
         try {
-            orchestrationService.exploreKeywordsOnly(
+            KeywordExplorationResponse result = orchestrationService.exploreKeywordsOnly(
                     nicheId, 
                     request.getSeedKeywords(), 
                     request.getDepth()
             );
             
-            Map<String, Object> response = new HashMap<>();
-            response.put("success", true);
-            response.put("message", "Keywords explored successfully");
-            
-            return ResponseEntity.ok(response);
+            return ResponseEntity.ok(result);
             
         } catch (Exception e) {
-            Map<String, Object> response = new HashMap<>();
-            response.put("success", false);
-            response.put("message", "Keyword exploration failed: " + e.getMessage());
+            KeywordExplorationResponse response = KeywordExplorationResponse.builder()
+                    .success(false)
+                    .message("Keyword exploration failed: " + e.getMessage())
+                    .keywordsDiscovered(0)
+                    .keywordsQualified(0)
+                    .keywordsSaved(0)
+                    .build();
             
             return ResponseEntity.status(500).body(response);
         }

@@ -1174,3 +1174,1234 @@ Original Stack Trace:
 2026-02-13 03:38:14 [http-nio-8080-exec-2] INFO  c.s.c.s.ContentOrchestrationService - Saved 6 qualified keywords from manual exploration
 2026-02-13 03:40:51 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)
 2026-02-13 03:40:52 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2026-02-13 05:59:31 [HikariPool-2:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h5m59s924ms332µs900ns).
+2026-02-13 07:30:05 [HikariPool-2:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h13m2s491ms802µs100ns).
+2026-02-13 07:41:56 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-02-13 07:41:56 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-02-13 07:42:00 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 07:42:00 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 07:42:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 07:42:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 07:42:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-02-13 07:42:01 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@200b64d4
+2026-02-13 07:42:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-02-13 07:42:02 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 07:42:02 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 2.417 seconds (process running for 14975.372)
+2026-02-13 07:52:10 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-13 07:52:12 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2026-02-13 07:52:12 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2026-02-13 07:56:57 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-02-13 07:56:57 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-02-13 07:56:59 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 07:56:59 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 07:57:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 07:57:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 07:57:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-02-13 07:57:00 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@652954f2
+2026-02-13 07:57:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-02-13 07:57:01 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 07:57:01 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 1.954 seconds (process running for 15874.431)
+2026-02-13 07:57:02 [Thread-30] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-02-13 07:57:02 [Thread-30] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-02-13 07:57:03 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 07:57:03 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 07:57:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 07:57:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 07:57:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-02-13 07:57:03 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@796e99d
+2026-02-13 07:57:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-02-13 07:57:04 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 07:57:04 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 1.558 seconds (process running for 15877.646)
+2026-02-13 07:57:23 [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-02-13 07:57:23 [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-02-13 07:57:24 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 07:57:24 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 07:57:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 07:57:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 07:57:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-02-13 07:57:24 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@426c96e0
+2026-02-13 07:57:24 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-02-13 07:57:25 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 07:57:25 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 1.598 seconds (process running for 15898.484)
+2026-02-13 07:57:35 [Thread-38] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-02-13 07:57:35 [Thread-38] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-02-13 07:57:35 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 07:57:35 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 07:57:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 07:57:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 07:57:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2026-02-13 07:57:36 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@55af8aaa
+2026-02-13 07:57:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2026-02-13 07:57:36 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 07:57:36 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 1.227 seconds (process running for 15909.745)
+2026-02-13 08:01:15 [Thread-42] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2026-02-13 08:01:15 [Thread-42] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2026-02-13 08:01:17 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:01:17 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:01:18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:01:18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:01:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2026-02-13 08:01:18 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@11a47f5a
+2026-02-13 08:01:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2026-02-13 08:01:19 [restartedMain] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workflowController': Resolution of declared constructors on bean Class [com.seo.content.controller.WorkflowController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@406f71df] failed
+2026-02-13 08:01:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2026-02-13 08:01:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2026-02-13 08:01:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-13 08:01:19 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'workflowController': Resolution of declared constructors on bean Class [com.seo.content.controller.WorkflowController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@406f71df] failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.3.jar:7.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:993) ~[spring-context-7.0.3.jar:7.0.3]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.3.jar:7.0.3]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.2.jar:4.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.2.jar:4.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.2.jar:4.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.2.jar:4.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.2.jar:4.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.2.jar:4.0.2]
+	at com.seo.content.ContentSystemApplication.main(ContentSystemApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.2.jar:4.0.2]
+Caused by: java.lang.NoClassDefFoundError: DTOMapperService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3373) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2555) ~[na:na]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:362) ~[spring-beans-7.0.3.jar:7.0.3]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: DTOMapperService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.2.jar:4.0.2]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 29 common frames omitted
+2026-02-13 08:01:28 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:01:28 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:01:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:01:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:01:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2026-02-13 08:01:28 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@79156446
+2026-02-13 08:01:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2026-02-13 08:01:28 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:01:29 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 1.084 seconds (process running for 16142.173)
+2026-02-13 08:04:07 [Thread-46] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2026-02-13 08:04:07 [Thread-46] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2026-02-13 08:04:08 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:04:08 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:04:09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:04:09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:04:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2026-02-13 08:04:09 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@7387c63a
+2026-02-13 08:04:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2026-02-13 08:04:10 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:04:10 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 2.787 seconds (process running for 16303.981)
+2026-02-13 08:05:00 [Thread-53] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2026-02-13 08:05:00 [Thread-53] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2026-02-13 08:05:01 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:05:01 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:05:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:05:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:05:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2026-02-13 08:05:02 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@77e23ced
+2026-02-13 08:05:02 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2026-02-13 08:05:02 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:05:02 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 1.655 seconds (process running for 16355.732)
+2026-02-13 08:05:26 [Thread-57] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2026-02-13 08:05:26 [Thread-57] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2026-02-13 08:05:26 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:05:26 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:05:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:05:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:05:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2026-02-13 08:05:27 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@78fa0b2c
+2026-02-13 08:05:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2026-02-13 08:05:27 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:05:27 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 0.904 seconds (process running for 16380.929)
+2026-02-13 08:05:29 [Thread-61] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2026-02-13 08:05:29 [Thread-61] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2026-02-13 08:05:29 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:05:29 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:05:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:05:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:05:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+2026-02-13 08:05:30 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@20a07a4a
+2026-02-13 08:05:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+2026-02-13 08:05:30 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:05:30 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 0.94 seconds (process running for 16383.517)
+2026-02-13 08:05:47 [Thread-65] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+2026-02-13 08:05:47 [Thread-65] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+2026-02-13 08:05:51 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:05:51 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:05:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:05:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:05:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+2026-02-13 08:05:51 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-14 - Added connection org.postgresql.jdbc.PgConnection@425fe197
+2026-02-13 08:05:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+2026-02-13 08:05:52 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:05:52 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 1.161 seconds (process running for 16405.434)
+2026-02-13 08:08:02 [Thread-69] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
+2026-02-13 08:08:02 [Thread-69] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
+2026-02-13 08:08:03 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:08:03 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:08:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:08:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:08:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Starting...
+2026-02-13 08:08:03 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-15 - Added connection org.postgresql.jdbc.PgConnection@3c0bdc10
+2026-02-13 08:08:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Start completed.
+2026-02-13 08:08:04 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:08:04 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 1.299 seconds (process running for 16537.334)
+2026-02-13 08:08:05 [Thread-76] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown initiated...
+2026-02-13 08:08:05 [Thread-76] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown completed.
+2026-02-13 08:08:05 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:08:05 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:08:06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:08:06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:08:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Starting...
+2026-02-13 08:08:06 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-16 - Added connection org.postgresql.jdbc.PgConnection@6f8c819c
+2026-02-13 08:08:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Start completed.
+2026-02-13 08:08:06 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:08:06 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 0.95 seconds (process running for 16539.863)
+2026-02-13 08:09:33 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-13 08:09:34 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-02-13 08:09:41 [http-nio-8080-exec-3] INFO  c.s.c.s.ContentOrchestrationService - Manual keyword exploration for: Home Gardening
+2026-02-13 08:09:41 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: home gardening at depth 1
+2026-02-13 08:09:41 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening
+2026-02-13 08:09:41 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening tips
+2026-02-13 08:09:42 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening for beginners
+2026-02-13 08:09:42 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening examples
+2026-02-13 08:09:42 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening vs
+2026-02-13 08:09:43 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: vegetable garden at depth 1
+2026-02-13 08:09:43 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden
+2026-02-13 08:09:44 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden tips
+2026-02-13 08:09:44 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden for beginners
+2026-02-13 08:09:44 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden examples
+2026-02-13 08:09:45 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden vs
+2026-02-13 08:09:52 [http-nio-8080-exec-3] ERROR com.seo.content.service.LLMService - Error calling LLM API
+org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'api.groq.com' [A(1)]
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST https://api.groq.com/openai/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:207) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:483) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:627) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:881) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:478) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:242) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:317) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.transport.TransportConnector.lambda$doResolveAndConnect$11(TransportConnector.java:379) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:571) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:124) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.InetSocketAddressResolver$2.operationComplete(InetSocketAddressResolver.java:86) ~[netty-resolver-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1145) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.block(Mono.java:1773) ~[reactor-core-3.8.2.jar:3.8.2]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:424) ~[classes/:na]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:397) ~[classes/:na]
+		at com.seo.content.service.LLMService.qualifyKeywords(LLMService.java:85) ~[classes/:na]
+		at com.seo.content.service.ContentOrchestrationService.exploreKeywordsOnly(ContentOrchestrationService.java:254) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.3.jar:7.0.3]
+		at com.seo.content.service.ContentOrchestrationService$$SpringCGLIB$$0.exploreKeywordsOnly(<generated>) ~[classes/:na]
+		at com.seo.content.controller.WorkflowController.exploreKeywords(WorkflowController.java:67) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.UnknownHostException: Failed to resolve 'api.groq.com' [A(1)]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1137) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [4575: /10.103.112.186:53] DefaultDnsQuestion(api.groq.com. IN A) query '4575' via UDP timed out after 5000 milliseconds (no stack trace available)
+2026-02-13 08:13:15 [http-nio-8080-exec-4] INFO  c.s.c.s.ContentOrchestrationService - Manual keyword exploration for: Home Gardening
+2026-02-13 08:13:15 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: home gardening at depth 1
+2026-02-13 08:13:15 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening
+2026-02-13 08:13:15 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening tips
+2026-02-13 08:13:16 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening for beginners
+2026-02-13 08:13:16 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening examples
+2026-02-13 08:13:17 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening vs
+2026-02-13 08:13:18 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: vegetable garden at depth 1
+2026-02-13 08:13:18 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden
+2026-02-13 08:13:18 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden tips
+2026-02-13 08:13:18 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden for beginners
+2026-02-13 08:13:19 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden examples
+2026-02-13 08:13:19 [http-nio-8080-exec-4] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden vs
+2026-02-13 08:13:25 [http-nio-8080-exec-4] ERROR com.seo.content.service.LLMService - Error calling LLM API
+org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'api.groq.com' [A(1)]
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST https://api.groq.com/openai/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:207) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:483) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:627) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:881) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:478) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:242) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:317) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.transport.TransportConnector.lambda$doResolveAndConnect$11(TransportConnector.java:379) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:571) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:124) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.InetSocketAddressResolver$2.operationComplete(InetSocketAddressResolver.java:86) ~[netty-resolver-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1145) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.block(Mono.java:1773) ~[reactor-core-3.8.2.jar:3.8.2]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:424) ~[classes/:na]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:397) ~[classes/:na]
+		at com.seo.content.service.LLMService.qualifyKeywords(LLMService.java:85) ~[classes/:na]
+		at com.seo.content.service.ContentOrchestrationService.exploreKeywordsOnly(ContentOrchestrationService.java:254) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.3.jar:7.0.3]
+		at com.seo.content.service.ContentOrchestrationService$$SpringCGLIB$$0.exploreKeywordsOnly(<generated>) ~[classes/:na]
+		at com.seo.content.controller.WorkflowController.exploreKeywords(WorkflowController.java:67) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.UnknownHostException: Failed to resolve 'api.groq.com' [A(1)]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1137) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [4290: /10.103.112.186:53] DefaultDnsQuestion(api.groq.com. IN A) query '4290' via UDP timed out after 5000 milliseconds (no stack trace available)
+2026-02-13 08:16:45 [http-nio-8080-exec-7] INFO  c.s.c.s.ContentOrchestrationService - Manual keyword exploration for: Home Gardening
+2026-02-13 08:16:45 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: home gardening at depth 1
+2026-02-13 08:16:46 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening
+2026-02-13 08:16:46 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening tips
+2026-02-13 08:16:46 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening for beginners
+2026-02-13 08:16:47 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening examples
+2026-02-13 08:16:47 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: home gardening vs
+2026-02-13 08:16:48 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: vegetable garden at depth 1
+2026-02-13 08:16:48 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden
+2026-02-13 08:16:49 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden tips
+2026-02-13 08:16:49 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden for beginners
+2026-02-13 08:16:50 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden examples
+2026-02-13 08:16:50 [http-nio-8080-exec-7] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: vegetable garden vs
+2026-02-13 08:16:56 [http-nio-8080-exec-7] ERROR com.seo.content.service.LLMService - Error calling LLM API
+org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'api.groq.com' [A(1)]
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST https://api.groq.com/openai/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:207) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:483) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:627) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:881) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:478) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:242) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:317) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.transport.TransportConnector.lambda$doResolveAndConnect$11(TransportConnector.java:379) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:571) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:124) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.InetSocketAddressResolver$2.operationComplete(InetSocketAddressResolver.java:86) ~[netty-resolver-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1145) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.block(Mono.java:1773) ~[reactor-core-3.8.2.jar:3.8.2]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:424) ~[classes/:na]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:397) ~[classes/:na]
+		at com.seo.content.service.LLMService.qualifyKeywords(LLMService.java:85) ~[classes/:na]
+		at com.seo.content.service.ContentOrchestrationService.exploreKeywordsOnly(ContentOrchestrationService.java:254) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.3.jar:7.0.3]
+		at com.seo.content.service.ContentOrchestrationService$$SpringCGLIB$$0.exploreKeywordsOnly(<generated>) ~[classes/:na]
+		at com.seo.content.controller.WorkflowController.exploreKeywords(WorkflowController.java:67) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.UnknownHostException: Failed to resolve 'api.groq.com' [A(1)]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1137) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [10253: /10.103.112.186:53] DefaultDnsQuestion(api.groq.com. IN A) query '10253' via UDP timed out after 5000 milliseconds (no stack trace available)
+2026-02-13 08:19:26 [http-nio-8080-exec-10] INFO  c.s.c.s.ContentOrchestrationService - Manual keyword exploration for: Home Gardening
+2026-02-13 08:19:57 [http-nio-8080-exec-2] INFO  c.s.c.s.ContentOrchestrationService - Manual keyword exploration for: Home Gardening
+2026-02-13 08:19:57 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: SOAP notes at depth 1
+2026-02-13 08:19:58 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes
+2026-02-13 08:19:58 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes tips
+2026-02-13 08:19:58 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes for beginners
+2026-02-13 08:19:59 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes examples
+2026-02-13 08:19:59 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes vs
+2026-02-13 08:20:00 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: clinical documentation at depth 1
+2026-02-13 08:20:00 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation
+2026-02-13 08:20:00 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation tips
+2026-02-13 08:20:01 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: clinical documentation for beginners
+2026-02-13 08:20:01 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation examples
+2026-02-13 08:20:01 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation vs
+2026-02-13 08:20:02 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: patient progress notes at depth 1
+2026-02-13 08:20:02 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: patient progress notes
+2026-02-13 08:20:02 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes tips
+2026-02-13 08:20:03 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes for beginners
+2026-02-13 08:20:03 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: patient progress notes examples
+2026-02-13 08:20:04 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes vs
+2026-02-13 08:20:04 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: medical charting at depth 1
+2026-02-13 08:20:05 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting
+2026-02-13 08:20:05 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting tips
+2026-02-13 08:20:05 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: medical charting for beginners
+2026-02-13 08:20:06 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting examples
+2026-02-13 08:20:06 [http-nio-8080-exec-2] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: medical charting vs
+2026-02-13 08:20:11 [http-nio-8080-exec-3] INFO  c.s.c.s.ContentOrchestrationService - Manual keyword exploration for: SOAP Notes Documentation
+2026-02-13 08:20:11 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: SOAP notes at depth 1
+2026-02-13 08:20:11 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes
+2026-02-13 08:20:11 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes tips
+2026-02-13 08:20:11 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes for beginners
+2026-02-13 08:20:12 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes examples
+2026-02-13 08:20:12 [http-nio-8080-exec-2] ERROR com.seo.content.service.LLMService - Error calling LLM API
+org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'api.groq.com' [A(1)]
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST https://api.groq.com/openai/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:207) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:483) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:627) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:881) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:478) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:242) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:317) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.transport.TransportConnector.lambda$doResolveAndConnect$11(TransportConnector.java:379) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:571) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:124) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.InetSocketAddressResolver$2.operationComplete(InetSocketAddressResolver.java:86) ~[netty-resolver-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1145) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.block(Mono.java:1773) ~[reactor-core-3.8.2.jar:3.8.2]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:424) ~[classes/:na]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:397) ~[classes/:na]
+		at com.seo.content.service.LLMService.qualifyKeywords(LLMService.java:85) ~[classes/:na]
+		at com.seo.content.service.ContentOrchestrationService.exploreKeywordsOnly(ContentOrchestrationService.java:254) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.3.jar:7.0.3]
+		at com.seo.content.service.ContentOrchestrationService$$SpringCGLIB$$0.exploreKeywordsOnly(<generated>) ~[classes/:na]
+		at com.seo.content.controller.WorkflowController.exploreKeywords(WorkflowController.java:67) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.UnknownHostException: Failed to resolve 'api.groq.com' [A(1)]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1137) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [13160: /10.103.112.186:53] DefaultDnsQuestion(api.groq.com. IN A) query '13160' via UDP timed out after 5000 milliseconds (no stack trace available)
+2026-02-13 08:20:12 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes vs
+2026-02-13 08:20:13 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: clinical documentation at depth 1
+2026-02-13 08:20:13 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation
+2026-02-13 08:20:13 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation tips
+2026-02-13 08:20:14 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: clinical documentation for beginners
+2026-02-13 08:20:14 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation examples
+2026-02-13 08:20:15 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation vs
+2026-02-13 08:20:15 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: patient progress notes at depth 1
+2026-02-13 08:20:15 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: patient progress notes
+2026-02-13 08:20:16 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes tips
+2026-02-13 08:20:16 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes for beginners
+2026-02-13 08:20:17 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: patient progress notes examples
+2026-02-13 08:20:17 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes vs
+2026-02-13 08:20:18 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: medical charting at depth 1
+2026-02-13 08:20:18 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting
+2026-02-13 08:20:18 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting tips
+2026-02-13 08:20:19 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: medical charting for beginners
+2026-02-13 08:20:19 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting examples
+2026-02-13 08:20:19 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: medical charting vs
+2026-02-13 08:20:25 [http-nio-8080-exec-3] ERROR com.seo.content.service.LLMService - Error calling LLM API
+org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'api.groq.com' [A(1)]
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+	Suppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST https://api.groq.com/openai/v1/chat/completions [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$0(ExchangeFunctions.java:137) ~[spring-webflux-7.0.3.jar:7.0.3]
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:56) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:225) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:94) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:207) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:125) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:230) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:282) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:123) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:109) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:483) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:627) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:881) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:138) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1740) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:197) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:336) ~[reactor-netty-http-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:182) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:478) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:444) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:208) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:605) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:242) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:317) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:107) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Operators.error(Operators.java:198) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:54) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:604) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at reactor.netty.transport.TransportConnector.lambda$doResolveAndConnect$11(TransportConnector.java:379) ~[reactor-netty-core-1.3.2.jar:1.3.2]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:571) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure(DefaultPromise.java:124) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.InetSocketAddressResolver$2.operationComplete(InetSocketAddressResolver.java:86) ~[netty-resolver-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1145) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104) ~[reactor-core-3.8.2.jar:3.8.2]
+		at reactor.core.publisher.Mono.block(Mono.java:1773) ~[reactor-core-3.8.2.jar:3.8.2]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:424) ~[classes/:na]
+		at com.seo.content.service.LLMService.callLLM(LLMService.java:397) ~[classes/:na]
+		at com.seo.content.service.LLMService.qualifyKeywords(LLMService.java:85) ~[classes/:na]
+		at com.seo.content.service.ContentOrchestrationService.exploreKeywordsOnly(ContentOrchestrationService.java:254) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.3.jar:7.0.3]
+		at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.3.jar:7.0.3]
+		at com.seo.content.service.ContentOrchestrationService$$SpringCGLIB$$0.exploreKeywordsOnly(<generated>) ~[classes/:na]
+		at com.seo.content.controller.WorkflowController.exploreKeywords(WorkflowController.java:67) ~[classes/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+		at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.UnknownHostException: Failed to resolve 'api.groq.com' [A(1)]
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1137) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:1084) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:443) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext.access$700(DnsResolveContext.java:69) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:512) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext.finishFailure(DnsQueryContext.java:346) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:281) ~[netty-resolver-dns-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:160) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.9.Final.jar:4.2.9.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [3521: /10.103.112.186:53] DefaultDnsQuestion(api.groq.com. IN A) query '3521' via UDP timed out after 5000 milliseconds (no stack trace available)
+2026-02-13 08:24:33 [Thread-80] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown initiated...
+2026-02-13 08:24:33 [Thread-80] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown completed.
+2026-02-13 08:24:35 [restartedMain] INFO  c.s.content.ContentSystemApplication - Starting ContentSystemApplication using Java 17.0.16 with PID 26284 (C:\Users\ebube\Desktop\Projects\content-system\target\classes started by ebube in C:\Users\ebube\Desktop\Projects\content-system)
+2026-02-13 08:24:35 [restartedMain] INFO  c.s.content.ContentSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-13 08:24:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-13 08:24:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-13 08:24:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Starting...
+2026-02-13 08:24:37 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-17 - Added connection org.postgresql.jdbc.PgConnection@694366e6
+2026-02-13 08:24:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Start completed.
+2026-02-13 08:24:37 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-13 08:24:37 [restartedMain] INFO  c.s.content.ContentSystemApplication - Started ContentSystemApplication in 2.256 seconds (process running for 17530.924)
+2026-02-13 08:24:43 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-13 08:24:43 [http-nio-8080-exec-3] INFO  c.s.c.s.ContentOrchestrationService - Manual keyword exploration for: SOAP Notes Documentation
+2026-02-13 08:24:43 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: SOAP notes at depth 1
+2026-02-13 08:24:43 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes
+2026-02-13 08:24:44 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes tips
+2026-02-13 08:24:44 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes for beginners
+2026-02-13 08:24:44 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes examples
+2026-02-13 08:24:45 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: SOAP notes vs
+2026-02-13 08:24:46 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: clinical documentation at depth 1
+2026-02-13 08:24:46 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation
+2026-02-13 08:24:46 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation tips
+2026-02-13 08:24:46 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: clinical documentation for beginners
+2026-02-13 08:24:47 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation examples
+2026-02-13 08:24:47 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: clinical documentation vs
+2026-02-13 08:24:48 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: patient progress notes at depth 1
+2026-02-13 08:24:48 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: patient progress notes
+2026-02-13 08:24:48 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes tips
+2026-02-13 08:24:48 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes for beginners
+2026-02-13 08:24:49 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: patient progress notes examples
+2026-02-13 08:24:49 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: patient progress notes vs
+2026-02-13 08:24:50 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Exploring seed keyword: medical charting at depth 1
+2026-02-13 08:24:50 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting
+2026-02-13 08:24:50 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting tips
+2026-02-13 08:24:51 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: medical charting for beginners
+2026-02-13 08:24:51 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 1 suggestions for keyword: medical charting examples
+2026-02-13 08:24:52 [http-nio-8080-exec-3] INFO  c.s.c.s.KeywordDiscoveryService - Found 0 suggestions for keyword: medical charting vs
+2026-02-13 08:24:56 [http-nio-8080-exec-3] INFO  c.s.c.s.ContentOrchestrationService - Saved 4 qualified keywords from manual exploration
+2026-02-13 08:25:11 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2026-02-13 08:25:11 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (501) exceeds the maximum allowed (500, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2026-02-13 08:47:28 [HikariPool-17:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=10m51s541ms915µs500ns).
+2026-02-13 09:00:42 [HikariPool-17:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-17 - Thread starvation or clock leap detected (housekeeper delta=12m42s968ms785µs500ns).

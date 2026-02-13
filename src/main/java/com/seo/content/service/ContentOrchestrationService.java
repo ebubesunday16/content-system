@@ -1,5 +1,6 @@
 package com.seo.content.service;
 
+import com.seo.content.dto.KeywordExplorationResponse;
 import com.seo.content.dto.LLMDto.*;
 import com.seo.content.model.*;
 import com.seo.content.repository.*;
@@ -228,43 +229,55 @@ public class ContentOrchestrationService {
     }
     
     /**
-     * Manually trigger keyword exploration without article generation
-     */
-    @Transactional
-    public void exploreKeywordsOnly(Long nicheId, List<String> seedKeywords, int depth) {
-        Niche niche = nicheRepository.findById(nicheId)
-                .orElseThrow(() -> new RuntimeException("Niche not found"));
+ * Manually trigger keyword exploration without article generation
+ */
+@Transactional
+public KeywordExplorationResponse exploreKeywordsOnly(Long nicheId, List<String> seedKeywords, int depth) {
+    Niche niche = nicheRepository.findById(nicheId)
+            .orElseThrow(() -> new RuntimeException("Niche not found"));
+    
+    log.info("Manual keyword exploration for: {}", niche.getNicheName());
+    
+    List<String> suggestions = keywordDiscoveryService.discoverKeywordsFromSeeds(seedKeywords, depth);
+    List<String> newSuggestions = keywordDiscoveryService.filterNewKeywords(suggestions, niche);
+    
+    List<PotentialKeyword> existingKeywords = keywordRepository.findByNiche(niche);
+    
+    // Qualify in batches
+    List<PotentialKeyword> qualifiedKeywords = new ArrayList<>();
+    int qualifiedCount = 0;
+    
+    for (int i = 0; i < newSuggestions.size(); i += 20) {
+        int end = Math.min(i + 20, newSuggestions.size());
+        List<String> batch = newSuggestions.subList(i, end);
         
-        log.info("Manual keyword exploration for: {}", niche.getNicheName());
+        List<KeywordQualification> qualifications = llmService.qualifyKeywords(
+                batch, niche, existingKeywords
+        );
         
-        List<String> suggestions = keywordDiscoveryService.discoverKeywordsFromSeeds(seedKeywords, depth);
-        List<String> newSuggestions = keywordDiscoveryService.filterNewKeywords(suggestions, niche);
-        
-        List<PotentialKeyword> existingKeywords = keywordRepository.findByNiche(niche);
-        
-        // Qualify in batches
-        List<PotentialKeyword> qualifiedKeywords = new ArrayList<>();
-        
-        for (int i = 0; i < newSuggestions.size(); i += 20) {
-            int end = Math.min(i + 20, newSuggestions.size());
-            List<String> batch = newSuggestions.subList(i, end);
-            
-            List<KeywordQualification> qualifications = llmService.qualifyKeywords(
-                    batch, niche, existingKeywords
-            );
-            
-            for (KeywordQualification qual : qualifications) {
-                if (qual.getRelevant() && !qual.getOverlapsExisting()) {
-                    PotentialKeyword keyword = createPotentialKeyword(qual, niche, depth, seedKeywords);
-                    qualifiedKeywords.add(keyword);
+        for (KeywordQualification qual : qualifications) {
+            if (qual.getRelevant() && !qual.getOverlapsExisting()) {
+                PotentialKeyword keyword = createPotentialKeyword(qual, niche, depth, seedKeywords);
+                qualifiedKeywords.add(keyword);
+                
+                if (keyword.isQualified()) {
+                    qualifiedCount++;
                 }
             }
         }
-        
-        keywordRepository.saveAll(qualifiedKeywords);
-        log.info("Saved {} qualified keywords from manual exploration", qualifiedKeywords.size());
     }
     
+    List<PotentialKeyword> saved = keywordRepository.saveAll(qualifiedKeywords);
+    log.info("Saved {} qualified keywords from manual exploration", saved.size());
+    
+    return KeywordExplorationResponse.builder()
+            .success(true)
+            .message("Keywords explored successfully")
+            .keywordsDiscovered(newSuggestions.size())
+            .keywordsQualified(qualifiedCount)
+            .keywordsSaved(saved.size())
+            .build();
+}
     /**
      * Generate article for a specific keyword
      */
