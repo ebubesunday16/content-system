@@ -11,11 +11,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Mono;
 
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
@@ -28,10 +29,10 @@ public class LLMService {
     @Value("${llm.api.key}")
     private String apiKey;
     
-    @Value("${llm.api.url:https://api.anthropic.com/v1/messages}")
+    @Value("${llm.api.url:https://api.groq.com/openai/v1/chat/completions}")
     private String apiUrl;
     
-    @Value("${llm.model:claude-sonnet-4-20250514}")
+    @Value("${llm.model:llama-3.1-8b-instant}")
     private String model;
     
     @Value("${llm.max.tokens:4096}")
@@ -398,32 +399,54 @@ public class LLMService {
     
     private String callLLM(String prompt, String systemPrompt, Integer tokens) {
         try {
-            LLMRequest request = LLMRequest.builder()
-                    .model(model)
-                    .maxTokens(tokens)
-                    .temperature(temperature)
-                    .system(systemPrompt)
-                    .messages(List.of(
-                            Message.builder()
-                                    .role("user")
-                                    .content(prompt)
-                                    .build()
-                    ))
-                    .build();
+            // Build request in OpenAI/Groq format
+            Map<String, Object> request = new HashMap<>();
+            request.put("model", model);
+            request.put("max_tokens", tokens);
+            request.put("temperature", temperature);
             
-            LLMResponse response = webClient.post()
+            // Build messages array with system and user messages
+            List<Map<String, String>> messages = new ArrayList<>();
+            messages.add(Map.of("role", "system", "content", systemPrompt));
+            messages.add(Map.of("role", "user", "content", prompt));
+            request.put("messages", messages);
+            
+            // Make API call with proper Authorization header
+            @SuppressWarnings("unchecked")
+            Map<String, Object> response = webClient.post()
                     .uri(apiUrl)
-                    .header("x-api-key", apiKey)
-                    .header("anthropic-version", "2023-06-01")
-                    .header("content-type", "application/json")
-                    .body(Mono.just(request), LLMRequest.class)
+                    .header("Authorization", "Bearer " + apiKey)
+                    .header("Content-Type", "application/json")
+                    .bodyValue(request)
                     .retrieve()
-                    .bodyToMono(LLMResponse.class)
+                    .bodyToMono(Map.class)
                     .timeout(Duration.ofSeconds(60))
                     .block();
             
-            if (response != null) {
-                return response.getTextContent();
+            // Extract content from response
+            if (response != null && response.containsKey("choices")) {
+                @SuppressWarnings("unchecked")
+                List<Map<String, Object>> choices = (List<Map<String, Object>>) response.get("choices");
+                if (!choices.isEmpty()) {
+                    @SuppressWarnings("unchecked")
+                    Map<String, Object> message = (Map<String, Object>) choices.get(0).get("message");
+                    String content = (String) message.get("content");
+                    
+                    // Clean up markdown code blocks if present
+                    if (content != null) {
+                        content = content.trim();
+                        if (content.startsWith("```json")) {
+                            content = content.substring(7);
+                        }
+                        if (content.startsWith("```")) {
+                            content = content.substring(3);
+                        }
+                        if (content.endsWith("```")) {
+                            content = content.substring(0, content.length() - 3);
+                        }
+                        return content.trim();
+                    }
+                }
             }
             
             throw new RuntimeException("Empty response from LLM");
